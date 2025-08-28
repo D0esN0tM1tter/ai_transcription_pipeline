@@ -1,0 +1,94 @@
+{
+    "jobs": {
+        "1": {
+            "job_id": "job_814bdfe3e0b640779939d0522aa08a0e",
+            "original_video_path": "app/tests/test_data/videos/news_french.mp4",
+            "processed_video_path": "app/tests/test_data/videos/processed/video_subtitled_job_814bdfe3e0b640779939d0522aa08a0e.mkv",
+            "input_language": "french",
+            "target_languages": [
+                "arabic",
+                "english"
+            ],
+            "upload_date": "2025-08-05T21:29:13.052000",
+            "processed": true
+        }
+    },
+    "transcriptions": {
+        "1": {
+            "transcription_id": "transcription_4b1b7c2bed9c4126ae6011ac775f5335_job_814bdfe3e0b640779939d0522aa08a0e",
+            "job_id": "job_814bdfe3e0b640779939d0522aa08a0e",
+            "original_text": "Bonjour, bienvenu.",
+            "original_chunks": [
+                {
+                    "timestamp": [
+                        0.0,
+                        5.0
+                    ],
+                    "text": "Bonjour, bienvenu."
+                }
+            ],
+            "translated_text": "",
+            "translated_chunks": [],
+            "input_language": "french",
+            "target_language": "french",
+            "filepath": null,
+            "creation_datetime": "2025-08-05T21:34:50.502570"
+        },
+        "2": {
+            "transcription_id": "transcription_a26f1717524f44aca8c51c6db3c8e28a_job_814bdfe3e0b640779939d0522aa08a0e",
+            "job_id": "job_814bdfe3e0b640779939d0522aa08a0e",
+            "original_text": "Bonjour, bienvenu.",
+            "original_chunks": [
+                {
+                    "timestamp": [
+                        0.0,
+                        5.0
+                    ],
+                    "text": "Bonjour, bienvenu."
+                }
+            ],
+            "translated_text": "\u0645\u0631\u062d\u0628\u0627\u064b\u060c \u0645\u0631\u062d\u0628\u0627\u064b\u060c \u0645\u0631\u062d\u0628\u0627\u064b.",
+            "translated_chunks": [
+                {
+                    "timestamp": [
+                        0.0,
+                        5.0
+                    ],
+                    "text": "\u0645\u0631\u062d\u0628\u0627\u064b\u060c \u0645\u0631\u062d\u0628\u0627\u064b\u060c \u0645\u0631\u062d\u0628\u0627\u064b."
+                }
+            ],
+            "input_language": "french",
+            "target_language": "arabic",
+            "filepath": null,
+            "creation_datetime": "2025-08-05T21:34:53.276566"
+        },
+        "3": {
+            "transcription_id": "transcription_a2aeef3b318a453396cd9e249be8caba_job_814bdfe3e0b640779939d0522aa08a0e",
+            "job_id": "job_814bdfe3e0b640779939d0522aa08a0e",
+            "original_text": "Bonjour, bienvenu.",
+            "original_chunks": [
+                {
+                    "timestamp": [
+                        0.0,
+                        5.0
+                    ],
+                    "text": "Bonjour, bienvenu."
+                }
+            ],
+            "translated_text": "Hello, welcome.",
+            "translated_chunks": [
+                {
+                    "timestamp": [
+                        0.0,
+                        5.0
+                    ],
+                    "text": "Hello, welcome."
+                }
+            ],
+            "input_language": "french",
+            "target_language": "english",
+            "filepath": null,
+            "creation_datetime": "2025-08-05T21:34:55.483947"
+        }
+    }
+}
