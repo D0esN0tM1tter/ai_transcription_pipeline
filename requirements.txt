@@ -9,3 +9,6 @@ torch>=2.0.0
 transformers>=4.30.0
 ffmpeg-python>=0.2.0
 ffmpeg-python>=0.2.0
+tinydb
+matplotlib
+python-multipart

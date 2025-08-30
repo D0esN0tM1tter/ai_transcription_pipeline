@@ -1,0 +1,126 @@
+{
+    "jobs": {
+        "1": {
+            "job_id": "job_e21a02f05ad84b8d8753e3cb3ee34884",
+            "original_video_path": "/home/bilal/main/snrt_project/code/ai_transcription_pipeline/data/videos/upload/uploaded_video_293dca5c.mp4",
+            "processed_video_path": "/home/bilal/main/snrt_project/code/ai_transcription_pipeline/data/videos/processed/video_subtitled_job_e21a02f05ad84b8d8753e3cb3ee34884.mkv",
+            "input_language": "spanish",
+            "target_languages": [
+                "arabic",
+                "english"
+            ],
+            "upload_date": "2025-08-29T19:33:09.630280",
+            "processed": true
+        },
+        "2": {
+            "job_id": "job_152f8cc8d7a149d4b4ad69b7597e0d16",
+            "original_video_path": "/home/bilal/main/snrt_project/code/ai_transcription_pipeline/data/videos/upload/uploaded_video_003da236.mp4",
+            "processed_video_path": "/home/bilal/main/snrt_project/code/ai_transcription_pipeline/data/videos/processed/video_subtitled_job_152f8cc8d7a149d4b4ad69b7597e0d16.mkv",
+            "input_language": "spanish",
+            "target_languages": [
+                "arabic",
+                "english"
+            ],
+            "upload_date": "2025-08-29T19:42:36.714600",
+            "processed": true
+        }
+    },
+    "transcriptions": {
+        "1": {
+            "transcription_id": "transcription_9d13a4bdaaf14e0a9ea9cab12ae41c75_job_e21a02f05ad84b8d8753e3cb3ee34884",
+            "job_id": "job_e21a02f05ad84b8d8753e3cb3ee34884",
+            "original_text": " En matem\u00e1tica se llama base a los lados paralelos, \u00e9sta es base y \u00e9sta es base. \u00bfPor qu\u00e9 escrib\u00ed grande y chica? Porque \u00e9sta se llama base menor y \u00e9sta se llama base mayor. Vengo a mi dibujo, ustedes ven que \u00e9sta ser\u00eda la base mayor y ven que \u00e9sta ser\u00eda la base menor del trapecio y \u00e9sta cu\u00e1l ser\u00eda la base mayor y \u00e9sta cu\u00e1l ser\u00eda la base menor. Entonces, y me dio un rect\u00e1bulo que supongo que todos saben que hace por altura.",
+            "original_chunks": [
+                {
+                    "timestamp": [
+                        0.0,
+                        8.52
+                    ],
+                    "text": " En matem\u00e1tica se llama base a los lados paralelos, \u00e9sta es base y \u00e9sta es base."
+                },
+                {
+                    "timestamp": [
+                        8.52,
+                        15.24
+                    ],
+                    "text": " \u00bfPor qu\u00e9 escrib\u00ed grande y chica? Porque \u00e9sta se llama base menor y \u00e9sta se llama base mayor."
+                },
+                {
+                    "timestamp": [
+                        15.24,
+                        23.4
+                    ],
+                    "text": " Vengo a mi dibujo, ustedes ven que \u00e9sta ser\u00eda la base mayor y ven que \u00e9sta ser\u00eda la base menor del trapecio"
+                },
+                {
+                    "timestamp": [
+                        23.4,
+                        29.4
+                    ],
+                    "text": " y \u00e9sta cu\u00e1l ser\u00eda la base mayor y \u00e9sta cu\u00e1l ser\u00eda la base menor."
+                },
+                {
+                    "timestamp": [
+                        29.4,
+                        34.2
+                    ],
+                    "text": " Entonces, y me dio un rect\u00e1bulo que supongo que todos saben que hace por altura."
+                }
+            ],
+            "translated_text": "",
+            "translated_chunks": [],
+            "input_language": "spanish",
+            "target_language": "spanish",
+            "filepath": "/home/bilal/main/snrt_project/code/ai_transcription_pipeline/data/transcriptions/transcription_9d13a4bdaaf14e0a9ea9cab12ae41c75_job_e21a02f05ad84b8d8753e3cb3ee34884_spanish.vtt",
+            "creation_datetime": "2025-08-29T19:34:06.400404"
+        },
+        "2": {
+            "transcription_id": "transcription_604f1cc6053a48f7b32c8942b74aae90_job_152f8cc8d7a149d4b4ad69b7597e0d16",
+            "job_id": "job_152f8cc8d7a149d4b4ad69b7597e0d16",
+            "original_text": " En matem\u00e1tica se llama base a los lados paralelos, \u00e9sta es base y \u00e9sta es base. \u00bfPor qu\u00e9 escrib\u00ed grande y chica? Porque \u00e9sta se llama base menor y \u00e9sta se llama base mayor. Vengo a mi dibujo, ustedes ven que \u00e9sta ser\u00eda la base mayor y ven que \u00e9sta ser\u00eda la base menor del trapecio y \u00e9sta cu\u00e1l ser\u00eda la base mayor y \u00e9sta cu\u00e1l ser\u00eda la base menor. Entonces, y me dio un rect\u00e1bulo que supongo que todos saben que hace por altura.",
+            "original_chunks": [
+                {
+                    "timestamp": [
+                        0.0,
+                        8.52
+                    ],
+                    "text": " En matem\u00e1tica se llama base a los lados paralelos, \u00e9sta es base y \u00e9sta es base."
+                },
+                {
+                    "timestamp": [
+                        8.52,
+                        15.24
+                    ],
+                    "text": " \u00bfPor qu\u00e9 escrib\u00ed grande y chica? Porque \u00e9sta se llama base menor y \u00e9sta se llama base mayor."
+                },
+                {
+                    "timestamp": [
+                        15.24,
+                        23.4
+                    ],
+                    "text": " Vengo a mi dibujo, ustedes ven que \u00e9sta ser\u00eda la base mayor y ven que \u00e9sta ser\u00eda la base menor del trapecio"
+                },
+                {
+                    "timestamp": [
+                        23.4,
+                        29.4
+                    ],
+                    "text": " y \u00e9sta cu\u00e1l ser\u00eda la base mayor y \u00e9sta cu\u00e1l ser\u00eda la base menor."
+                },
+                {
+                    "timestamp": [
+                        29.4,
+                        34.2
+                    ],
+                    "text": " Entonces, y me dio un rect\u00e1bulo que supongo que todos saben que hace por altura."
+                }
+            ],
+            "translated_text": "",
+            "translated_chunks": [],
+            "input_language": "spanish",
+            "target_language": "spanish",
+            "filepath": "/home/bilal/main/snrt_project/code/ai_transcription_pipeline/data/transcriptions/transcription_604f1cc6053a48f7b32c8942b74aae90_job_152f8cc8d7a149d4b4ad69b7597e0d16_spanish.vtt",
+            "creation_datetime": "2025-08-29T19:43:13.491711"
+        }
+    }
+}

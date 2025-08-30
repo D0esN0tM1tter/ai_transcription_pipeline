@@ -37,7 +37,7 @@ class IntegrationService:
 
     
 
-    def process(self , job : TranscriptionJob) -> TranscriptionJob: 
+    def process(self , job : TranscriptionJob , asr_model_size : str ) -> TranscriptionJob: 
 
         # audio extraction : 
         extracted_audio : Audio = self.ffmpeg.extract_audio(
@@ -51,6 +51,7 @@ class IntegrationService:
         # speech recognition : 
         transcription : Transcription = self.asr_model.transcribe(
             audio=extracted_audio , 
+            model_size=asr_model_size , 
             translate_to_eng=False
         )
 

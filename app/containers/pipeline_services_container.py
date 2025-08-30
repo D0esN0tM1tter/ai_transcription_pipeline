@@ -9,7 +9,7 @@ from app.containers.model_services_container import ModelServicesContainer
 from app.config.app_config import AppConfig
 
 class PipelineServicesContainer:
-    def __init__(self, model_services_container: ModelServicesContainer , app_config : AppConfig):
+    def __init__(self, model_services_container: ModelServicesContainer , app_config : AppConfig ):
         self.model_services_container = model_services_container
         self._ffmpeg = None
         self._audio_utils = None
@@ -42,6 +42,7 @@ class PipelineServicesContainer:
         return self._asr_model
 
     @property
+    
     def translator(self):
         if self._translator is None:
             self._translator = TranslationModel(

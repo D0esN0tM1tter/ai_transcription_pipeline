@@ -25,11 +25,13 @@ def get_app_config() :
 
 @router.post("/process", response_model=JobResponse)
 async def process(
+    
+    asr_model_size : str , 
     video: UploadFile = File(...),
     input_language: str = Form(...),
     target_languages: List[str] = Form(...) , 
     integration_service : IntegrationService = Depends(get_integration_service) , 
-    app_config : AppConfig = Depends(get_app_config)
+    app_config : AppConfig = Depends(get_app_config) , 
 ):
     try:
         
@@ -43,7 +45,7 @@ async def process(
             processed=False
         )
 
-        processed_job = integration_service.process(job=job)
+        processed_job = integration_service.process(job=job , asr_model_size=asr_model_size)
 
         return JobResponse(
             job_id=processed_job.id,
