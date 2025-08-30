@@ -23,12 +23,7 @@ class TranslationModel:
         self.job_service = job_service
         self.transcription_service = transcription_service
         self.models = {}
-        import os
-        models_dir = os.getenv('LLM_MODELS_DIR', 'hf_models')
-        root = os.path.abspath(os.path.join(os.path.dirname(__file__), '../../../../..'))
-        self.models_dir = models_dir if os.path.isabs(models_dir) else os.path.join(root, models_dir)
-        os.makedirs(self.models_dir, exist_ok=True)
-        logger.info(f"TranslationModel initialized: models_dir={self.models_dir}")
+        logger.info("TranslationModel initialized")
 
     def _language_code(self, lang: str) -> str:
         lang_map = {"english": "en", "en": "en", "french": "fr", "fr": "fr", "arabic": "ar", "ar": "ar", "spanish": "es", "es": "es"}
@@ -46,8 +41,8 @@ class TranslationModel:
         if key not in self.models:
             name = f"Helsinki-NLP/opus-mt-{src}-{tgt}"
             logger.info(f"Loading MarianMT model: {name}")
-            tokenizer = MarianTokenizer.from_pretrained(name, cache_dir=self.models_dir)
-            model = MarianMTModel.from_pretrained(name, cache_dir=self.models_dir)
+            tokenizer = MarianTokenizer.from_pretrained(name)
+            model = MarianMTModel.from_pretrained(name)
             self.models[key] = (tokenizer, model)
             logger.info(f"Model loaded and cached for pair: {key}")
         return self.models[key]

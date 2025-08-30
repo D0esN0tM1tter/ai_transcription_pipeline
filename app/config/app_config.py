@@ -15,7 +15,6 @@ class AppConfig:
         self.PROCESSED_VID_DIR = self._resolve_path(self._get_env("PROCESSED_VID_DIR"))
         self.TRANSCRIPTIONS_DIR = self._resolve_path(self._get_env("TRANSCRIPTIONS_DIR"))
         self.UPLOAD_DIR = self._resolve_path(self._get_env("UPLOAD_DIR"))
-        self.LLM_MODELS_DIR = self._resolve_path(self._get_env("LLM_MODELS_DIR"))
 
         # Create directories if they do not exist
         for directory in [
@@ -23,8 +22,7 @@ class AppConfig:
             self.AUDIOS_DIR,
             self.PROCESSED_VID_DIR,
             self.TRANSCRIPTIONS_DIR,
-            self.UPLOAD_DIR,
-            self.LLM_MODELS_DIR
+            self.UPLOAD_DIR
         ]:
             if not os.path.exists(directory):
                 os.makedirs(directory, exist_ok=True)

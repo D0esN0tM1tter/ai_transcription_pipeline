@@ -25,11 +25,10 @@ ENV DB_PATH=/app/database/app.json \
     AUDIOS_DIR=/app/data/audios \
     PROCESSED_VID_DIR=/app/data/videos/processed \
     TRANSCRIPTIONS_DIR=/app/data/transcriptions \
-    UPLOAD_DIR=/app/data/videos/upload \
-    LLM_MODELS_DIR=/app/hf_models
+    UPLOAD_DIR=/app/data/videos/upload
 
-# Declare persistent volumes for database, audio, video, transcription, upload, and LLM models
-VOLUME ["/app/database", "/app/data/audios", "/app/data/videos/processed", "/app/data/transcriptions", "/app/data/videos/upload", "/app/hf_models"]
+# Declare persistent volumes for database, audio, video, transcription, and upload
+VOLUME ["/app/database", "/app/data/audios", "/app/data/videos/processed", "/app/data/transcriptions", "/app/data/videos/upload"]
 
 # Expose port 8000 so we can access the app from outside the container
 EXPOSE 8000

@@ -28,3 +28,15 @@ Thumbs.db
 data/audios/*.wav
 data/videos/upload/*
 data/videos/processed/*
+
+# Model files and caches (extra protection)
+*.bin
+*.pt
+*.pth
+*.safetensors
+*.onnx
+hf_models/
+models/
+.cache/
+**/cache/
+**/.transformers_cache/

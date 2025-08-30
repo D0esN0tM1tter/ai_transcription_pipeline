@@ -1,6 +1,6 @@
 from app.services.pipeline_services.ffmpeg_service import FfmpegUtils
 from app.services.pipeline_services.audio_service import AudioUtils
-#from app.services.pipeline_services.summarization_service import SummerizationModel
+from app.services.pipeline_services.summarization_service import SummarizationModel
 from app.services.pipeline_services.transcription_service import ASRModel
 from app.services.pipeline_services.translation_service import TranslationModel
 from app.services.pipeline_services.subtitle_formatter_service import SubtitleWriter
@@ -59,24 +59,27 @@ class PipelineServicesContainer:
             )
         return self._subtitle_writer
     
-    """
     @property 
-    def summarization_model(self) : 
-        if self._summarization_model is None : 
-            self.summarization_model = SummerizationModel()
-        
+    def summarization_model(self):
+        if self._summarization_model is None:
+            self._summarization_model = SummarizationModel(
+                summary_services=self.model_services_container.summary_services,
+                translator=self.translator,
+                job_services=self.model_services_container.jobs_services,
+                transcription_services=self.model_services_container.transcription_services
+            )
         return self._summarization_model
-    """
 
     @property
     def integration_service(self):
         if self._integration_service is None:
             self._integration_service = IntegrationService(
-                ffmpeg=self.ffmpeg , 
-                audio_utils=self.audio_utils , 
-                asr_model=self.asr_model , 
-                translator=self.translator , 
-                writer=self.subtitle_writer ,
+                ffmpeg=self.ffmpeg, 
+                audio_utils=self.audio_utils, 
+                asr_model=self.asr_model, 
+                translator=self.translator, 
+                writer=self.subtitle_writer,
+                summarization_model=self.summarization_model,
                 app_config=self.app_config
             )
         return self._integration_service

@@ -23,6 +23,109 @@
             ],
             "upload_date": "2025-08-29T19:42:36.714600",
             "processed": true
+        },
+        "3": {
+            "job_id": "job_244d94ceb28a44d8aa9fca951d9fd1ed",
+            "original_video_path": "/home/bilal/main/snrt_project/code/ai_transcription_pipeline/data/videos/upload/uploaded_video_c2931cef.mp4",
+            "processed_video_path": "/home/bilal/main/snrt_project/code/ai_transcription_pipeline/data/videos/processed/video_subtitled_job_244d94ceb28a44d8aa9fca951d9fd1ed.mkv",
+            "input_language": "spanish",
+            "target_languages": [
+                "english"
+            ],
+            "upload_date": "2025-08-30T21:01:08.833803",
+            "processed": true
+        },
+        "4": {
+            "job_id": "job_54bdd7163b1d4db593b98ad30c643c39",
+            "original_video_path": "/home/bilal/main/snrt_project/code/ai_transcription_pipeline/data/videos/upload/uploaded_video_21a70bd5.mp4",
+            "processed_video_path": "/home/bilal/main/snrt_project/code/ai_transcription_pipeline/data/videos/processed/video_subtitled_job_54bdd7163b1d4db593b98ad30c643c39.mkv",
+            "input_language": "spanish",
+            "target_languages": [
+                "english"
+            ],
+            "upload_date": "2025-08-30T21:20:59.092230",
+            "processed": true
+        },
+        "5": {
+            "job_id": "job_ed46f39caa714cb6b2c4c3c9e8f76dfe",
+            "original_video_path": "/test/path/video.mp4",
+            "processed_video_path": "",
+            "input_language": "english",
+            "target_languages": [
+                "english",
+                "spanish"
+            ],
+            "upload_date": "2025-08-30T21:39:54.595093",
+            "processed": true
+        },
+        "6": {
+            "job_id": "job_4fdb80d476ff4778a7f176bcbf2a937f",
+            "original_video_path": "/test/path/video.mp4",
+            "processed_video_path": "",
+            "input_language": "english",
+            "target_languages": [
+                "english",
+                "spanish"
+            ],
+            "upload_date": "2025-08-30T21:40:47.115970",
+            "processed": true
+        },
+        "7": {
+            "job_id": "job_94f64d2710dc4d61a6026f2edcbe9d6f",
+            "original_video_path": "/test/path/video.mp4",
+            "processed_video_path": "",
+            "input_language": "english",
+            "target_languages": [
+                "english",
+                "spanish"
+            ],
+            "upload_date": "2025-08-30T21:41:33.469959",
+            "processed": true
+        },
+        "8": {
+            "job_id": "job_6869c49b79a14d18aaefc2ca67be7ac7",
+            "original_video_path": "/home/bilal/main/snrt_project/code/ai_transcription_pipeline/data/videos/upload/uploaded_video_c09bf40f.mp4",
+            "processed_video_path": "/home/bilal/main/snrt_project/code/ai_transcription_pipeline/data/videos/processed/video_subtitled_job_6869c49b79a14d18aaefc2ca67be7ac7.mkv",
+            "input_language": "spanish",
+            "target_languages": [
+                "english"
+            ],
+            "upload_date": "2025-08-30T21:51:13.367429",
+            "processed": true
+        },
+        "9": {
+            "job_id": "job_8381a5381ee3439294e75c98702084c5",
+            "original_video_path": "/test/path/video.mp4",
+            "processed_video_path": "",
+            "input_language": "english",
+            "target_languages": [
+                "english",
+                "spanish"
+            ],
+            "upload_date": "2025-08-30T21:58:27.555731",
+            "processed": true
+        },
+        "10": {
+            "job_id": "job_061944cb124743e0b792f708cfd560e9",
+            "original_video_path": "/home/bilal/main/snrt_project/code/ai_transcription_pipeline/data/videos/upload/uploaded_video_80761d34.mp4",
+            "processed_video_path": "/home/bilal/main/snrt_project/code/ai_transcription_pipeline/data/videos/processed/video_subtitled_job_061944cb124743e0b792f708cfd560e9.mkv",
+            "input_language": "spanish",
+            "target_languages": [
+                "english"
+            ],
+            "upload_date": "2025-08-30T22:00:37.183812",
+            "processed": true
+        },
+        "11": {
+            "job_id": "job_c6d9547d403a40ac89e02dc447f16ec2",
+            "original_video_path": "/home/bilal/main/snrt_project/code/ai_transcription_pipeline/data/videos/upload/uploaded_video_1ae16561.mp4",
+            "processed_video_path": "/home/bilal/main/snrt_project/code/ai_transcription_pipeline/data/videos/processed/video_subtitled_job_c6d9547d403a40ac89e02dc447f16ec2.mkv",
+            "input_language": "spanish",
+            "target_languages": [
+                "english"
+            ],
+            "upload_date": "2025-08-30T22:21:54.692722",
+            "processed": true
         }
     },
     "transcriptions": {
@@ -121,6 +224,779 @@
             "target_language": "spanish",
             "filepath": "/home/bilal/main/snrt_project/code/ai_transcription_pipeline/data/transcriptions/transcription_604f1cc6053a48f7b32c8942b74aae90_job_152f8cc8d7a149d4b4ad69b7597e0d16_spanish.vtt",
             "creation_datetime": "2025-08-29T19:43:13.491711"
+        },
+        "3": {
+            "transcription_id": "transcription_f244e3beec1942859e54dd6f41c5e1c6_job_244d94ceb28a44d8aa9fca951d9fd1ed",
+            "job_id": "job_244d94ceb28a44d8aa9fca951d9fd1ed",
+            "original_text": " En matem\u00e1tica se llama base a los lados paralelos, \u00e9sta es base y \u00e9sta es base. \u00bfPor qu\u00e9 escrib\u00ed grande y chica? Porque \u00e9sta se llama base menor y \u00e9sta se llama base mayor. Vengo a mi dibujo, ustedes ven que \u00e9sta ser\u00eda la base mayor y ven que \u00e9sta ser\u00eda la base menor del trapecio y \u00e9sta cu\u00e1l ser\u00eda la base mayor y \u00e9sta cu\u00e1l ser\u00eda la base menor. Entonces, y me dio un rect\u00e1bulo que supongo que todos saben que hace por altura.",
+            "original_chunks": [
+                {
+                    "timestamp": [
+                        0.0,
+                        8.52
+                    ],
+                    "text": " En matem\u00e1tica se llama base a los lados paralelos, \u00e9sta es base y \u00e9sta es base."
+                },
+                {
+                    "timestamp": [
+                        8.52,
+                        15.24
+                    ],
+                    "text": " \u00bfPor qu\u00e9 escrib\u00ed grande y chica? Porque \u00e9sta se llama base menor y \u00e9sta se llama base mayor."
+                },
+                {
+                    "timestamp": [
+                        15.24,
+                        23.4
+                    ],
+                    "text": " Vengo a mi dibujo, ustedes ven que \u00e9sta ser\u00eda la base mayor y ven que \u00e9sta ser\u00eda la base menor del trapecio"
+                },
+                {
+                    "timestamp": [
+                        23.4,
+                        29.4
+                    ],
+                    "text": " y \u00e9sta cu\u00e1l ser\u00eda la base mayor y \u00e9sta cu\u00e1l ser\u00eda la base menor."
+                },
+                {
+                    "timestamp": [
+                        29.4,
+                        34.2
+                    ],
+                    "text": " Entonces, y me dio un rect\u00e1bulo que supongo que todos saben que hace por altura."
+                }
+            ],
+            "translated_text": "",
+            "translated_chunks": [],
+            "input_language": "spanish",
+            "target_language": "spanish",
+            "filepath": "/home/bilal/main/snrt_project/code/ai_transcription_pipeline/data/transcriptions/transcription_f244e3beec1942859e54dd6f41c5e1c6_job_244d94ceb28a44d8aa9fca951d9fd1ed_spanish.vtt",
+            "creation_datetime": "2025-08-30T21:02:01.642712"
+        },
+        "4": {
+            "transcription_id": "transcription_2caf95c60f944f0fa5543915d01ab476_job_244d94ceb28a44d8aa9fca951d9fd1ed",
+            "job_id": "job_244d94ceb28a44d8aa9fca951d9fd1ed",
+            "original_text": " En matem\u00e1tica se llama base a los lados paralelos, \u00e9sta es base y \u00e9sta es base. \u00bfPor qu\u00e9 escrib\u00ed grande y chica? Porque \u00e9sta se llama base menor y \u00e9sta se llama base mayor. Vengo a mi dibujo, ustedes ven que \u00e9sta ser\u00eda la base mayor y ven que \u00e9sta ser\u00eda la base menor del trapecio y \u00e9sta cu\u00e1l ser\u00eda la base mayor y \u00e9sta cu\u00e1l ser\u00eda la base menor. Entonces, y me dio un rect\u00e1bulo que supongo que todos saben que hace por altura.",
+            "original_chunks": [
+                {
+                    "timestamp": [
+                        0.0,
+                        8.52
+                    ],
+                    "text": " En matem\u00e1tica se llama base a los lados paralelos, \u00e9sta es base y \u00e9sta es base."
+                },
+                {
+                    "timestamp": [
+                        8.52,
+                        15.24
+                    ],
+                    "text": " \u00bfPor qu\u00e9 escrib\u00ed grande y chica? Porque \u00e9sta se llama base menor y \u00e9sta se llama base mayor."
+                },
+                {
+                    "timestamp": [
+                        15.24,
+                        23.4
+                    ],
+                    "text": " Vengo a mi dibujo, ustedes ven que \u00e9sta ser\u00eda la base mayor y ven que \u00e9sta ser\u00eda la base menor del trapecio"
+                },
+                {
+                    "timestamp": [
+                        23.4,
+                        29.4
+                    ],
+                    "text": " y \u00e9sta cu\u00e1l ser\u00eda la base mayor y \u00e9sta cu\u00e1l ser\u00eda la base menor."
+                },
+                {
+                    "timestamp": [
+                        29.4,
+                        34.2
+                    ],
+                    "text": " Entonces, y me dio un rect\u00e1bulo que supongo que todos saben que hace por altura."
+                }
+            ],
+            "translated_text": "In mathematics it is called base to the parallel sides, this is base and this is base. Why did I write big and small? Because this is called the minor base and this is called the major base. I come to my drawing, you see that this would be the major base and you see that this would be the minor base of the trapeze and this would be the major base and this would be the minor base. Then, and gave me a retabule that I suppose everyone knows what it does by height.",
+            "translated_chunks": [
+                {
+                    "timestamp": [
+                        0.0,
+                        8.52
+                    ],
+                    "text": "In mathematics the parallel sides are called base, this is base and this is base."
+                },
+                {
+                    "timestamp": [
+                        8.52,
+                        15.24
+                    ],
+                    "text": "Why did I write big and girl? Because this is called a minor base and this is called a major base."
+                },
+                {
+                    "timestamp": [
+                        15.24,
+                        23.4
+                    ],
+                    "text": "I come to my drawing, you see that this would be the largest base and you see that this would be the smallest base of the trapeze."
+                },
+                {
+                    "timestamp": [
+                        23.4,
+                        29.4
+                    ],
+                    "text": "and this would be the largest base and this would be the lowest base."
+                },
+                {
+                    "timestamp": [
+                        29.4,
+                        34.2
+                    ],
+                    "text": "So, and he gave me a rectabule that I guess everyone knows what it's doing by height."
+                }
+            ],
+            "input_language": "spanish",
+            "target_language": "english",
+            "filepath": "/home/bilal/main/snrt_project/code/ai_transcription_pipeline/data/transcriptions/transcription_2caf95c60f944f0fa5543915d01ab476_job_244d94ceb28a44d8aa9fca951d9fd1ed_english.vtt",
+            "creation_datetime": "2025-08-30T21:02:22.802498"
+        },
+        "5": {
+            "transcription_id": "transcription_c0d3ec2a54cc4a2cb9b5bd9866bee34a_job_54bdd7163b1d4db593b98ad30c643c39",
+            "job_id": "job_54bdd7163b1d4db593b98ad30c643c39",
+            "original_text": " En matem\u00e1tica se llama base a los lados paralelos, \u00e9sta es base y \u00e9sta es base. \u00bfPor qu\u00e9 escrib\u00ed grande y chica? Porque \u00e9sta se llama base menor y \u00e9sta se llama base mayor. Vengo a mi dibujo, ustedes ven que \u00e9sta ser\u00eda la base mayor y ven que \u00e9sta ser\u00eda la base menor del trapecio y \u00e9sta cu\u00e1l ser\u00eda la base mayor y \u00e9sta cu\u00e1l ser\u00eda la base menor. Entonces, y me dio un rect\u00e1bulo que supongo que todos saben que hace por altura.",
+            "original_chunks": [
+                {
+                    "timestamp": [
+                        0.0,
+                        8.52
+                    ],
+                    "text": " En matem\u00e1tica se llama base a los lados paralelos, \u00e9sta es base y \u00e9sta es base."
+                },
+                {
+                    "timestamp": [
+                        8.52,
+                        15.24
+                    ],
+                    "text": " \u00bfPor qu\u00e9 escrib\u00ed grande y chica? Porque \u00e9sta se llama base menor y \u00e9sta se llama base mayor."
+                },
+                {
+                    "timestamp": [
+                        15.24,
+                        23.4
+                    ],
+                    "text": " Vengo a mi dibujo, ustedes ven que \u00e9sta ser\u00eda la base mayor y ven que \u00e9sta ser\u00eda la base menor del trapecio"
+                },
+                {
+                    "timestamp": [
+                        23.4,
+                        29.4
+                    ],
+                    "text": " y \u00e9sta cu\u00e1l ser\u00eda la base mayor y \u00e9sta cu\u00e1l ser\u00eda la base menor."
+                },
+                {
+                    "timestamp": [
+                        29.4,
+                        34.2
+                    ],
+                    "text": " Entonces, y me dio un rect\u00e1bulo que supongo que todos saben que hace por altura."
+                }
+            ],
+            "translated_text": "",
+            "translated_chunks": [],
+            "input_language": "spanish",
+            "target_language": "spanish",
+            "filepath": "/home/bilal/main/snrt_project/code/ai_transcription_pipeline/data/transcriptions/transcription_c0d3ec2a54cc4a2cb9b5bd9866bee34a_job_54bdd7163b1d4db593b98ad30c643c39_spanish.vtt",
+            "creation_datetime": "2025-08-30T21:21:44.903664"
+        },
+        "6": {
+            "transcription_id": "transcription_ece63b94ddd84db5b059ac4b1eb06a6b_job_54bdd7163b1d4db593b98ad30c643c39",
+            "job_id": "job_54bdd7163b1d4db593b98ad30c643c39",
+            "original_text": " En matem\u00e1tica se llama base a los lados paralelos, \u00e9sta es base y \u00e9sta es base. \u00bfPor qu\u00e9 escrib\u00ed grande y chica? Porque \u00e9sta se llama base menor y \u00e9sta se llama base mayor. Vengo a mi dibujo, ustedes ven que \u00e9sta ser\u00eda la base mayor y ven que \u00e9sta ser\u00eda la base menor del trapecio y \u00e9sta cu\u00e1l ser\u00eda la base mayor y \u00e9sta cu\u00e1l ser\u00eda la base menor. Entonces, y me dio un rect\u00e1bulo que supongo que todos saben que hace por altura.",
+            "original_chunks": [
+                {
+                    "timestamp": [
+                        0.0,
+                        8.52
+                    ],
+                    "text": " En matem\u00e1tica se llama base a los lados paralelos, \u00e9sta es base y \u00e9sta es base."
+                },
+                {
+                    "timestamp": [
+                        8.52,
+                        15.24
+                    ],
+                    "text": " \u00bfPor qu\u00e9 escrib\u00ed grande y chica? Porque \u00e9sta se llama base menor y \u00e9sta se llama base mayor."
+                },
+                {
+                    "timestamp": [
+                        15.24,
+                        23.4
+                    ],
+                    "text": " Vengo a mi dibujo, ustedes ven que \u00e9sta ser\u00eda la base mayor y ven que \u00e9sta ser\u00eda la base menor del trapecio"
+                },
+                {
+                    "timestamp": [
+                        23.4,
+                        29.4
+                    ],
+                    "text": " y \u00e9sta cu\u00e1l ser\u00eda la base mayor y \u00e9sta cu\u00e1l ser\u00eda la base menor."
+                },
+                {
+                    "timestamp": [
+                        29.4,
+                        34.2
+                    ],
+                    "text": " Entonces, y me dio un rect\u00e1bulo que supongo que todos saben que hace por altura."
+                }
+            ],
+            "translated_text": "In mathematics it is called base to the parallel sides, this is base and this is base. Why did I write big and small? Because this is called the minor base and this is called the major base. I come to my drawing, you see that this would be the major base and you see that this would be the minor base of the trapeze and this would be the major base and this would be the minor base. Then, and gave me a retabule that I suppose everyone knows what it does by height.",
+            "translated_chunks": [
+                {
+                    "timestamp": [
+                        0.0,
+                        8.52
+                    ],
+                    "text": "In mathematics the parallel sides are called base, this is base and this is base."
+                },
+                {
+                    "timestamp": [
+                        8.52,
+                        15.24
+                    ],
+                    "text": "Why did I write big and girl? Because this is called a minor base and this is called a major base."
+                },
+                {
+                    "timestamp": [
+                        15.24,
+                        23.4
+                    ],
+                    "text": "I come to my drawing, you see that this would be the largest base and you see that this would be the smallest base of the trapeze."
+                },
+                {
+                    "timestamp": [
+                        23.4,
+                        29.4
+                    ],
+                    "text": "and this would be the largest base and this would be the lowest base."
+                },
+                {
+                    "timestamp": [
+                        29.4,
+                        34.2
+                    ],
+                    "text": "So, and he gave me a rectabule that I guess everyone knows what it's doing by height."
+                }
+            ],
+            "input_language": "spanish",
+            "target_language": "english",
+            "filepath": "/home/bilal/main/snrt_project/code/ai_transcription_pipeline/data/transcriptions/transcription_ece63b94ddd84db5b059ac4b1eb06a6b_job_54bdd7163b1d4db593b98ad30c643c39_english.vtt",
+            "creation_datetime": "2025-08-30T21:21:54.926023"
+        },
+        "7": {
+            "transcription_id": "transcription_de2a66498ef24217a67635dfd9b4edf0_job_94f64d2710dc4d61a6026f2edcbe9d6f",
+            "job_id": "job_94f64d2710dc4d61a6026f2edcbe9d6f",
+            "original_text": "This is a test transcription. It contains some text that needs to be summarized. The content discusses various topics and provides detailed information about the subject matter. This should be enough text to generate a meaningful summary.",
+            "original_chunks": {},
+            "translated_text": "This is a test transcription. It contains some text that needs to be summarized. The content discusses various topics and provides detailed information about the subject matter. This should be enough text to generate a meaningful summary.",
+            "translated_chunks": {},
+            "input_language": "english",
+            "target_language": "english",
+            "filepath": "/test/transcription.vtt",
+            "creation_datetime": "2025-08-30T21:41:33.481520"
+        },
+        "8": {
+            "transcription_id": "transcription_fbd2a148e530482f9f76cdad8de1011c_job_6869c49b79a14d18aaefc2ca67be7ac7",
+            "job_id": "job_6869c49b79a14d18aaefc2ca67be7ac7",
+            "original_text": " En matem\u00e1tica se llama base a los lados paralelos, \u00e9sta es base y \u00e9sta es base. \u00bfPor qu\u00e9 escrib\u00ed grande y chica? Porque \u00e9sta se llama base menor y \u00e9sta se llama base mayor. Vengo a mi dibujo, ustedes ven que \u00e9sta ser\u00eda la base mayor y ven que \u00e9sta ser\u00eda la base menor del trapecio y \u00e9sta cu\u00e1l ser\u00eda la base mayor y \u00e9sta cu\u00e1l ser\u00eda la base menor. Entonces, y me dio un rect\u00e1bulo que supongo que todos saben que hace por altura.",
+            "original_chunks": [
+                {
+                    "timestamp": [
+                        0.0,
+                        8.52
+                    ],
+                    "text": " En matem\u00e1tica se llama base a los lados paralelos, \u00e9sta es base y \u00e9sta es base."
+                },
+                {
+                    "timestamp": [
+                        8.52,
+                        15.24
+                    ],
+                    "text": " \u00bfPor qu\u00e9 escrib\u00ed grande y chica? Porque \u00e9sta se llama base menor y \u00e9sta se llama base mayor."
+                },
+                {
+                    "timestamp": [
+                        15.24,
+                        23.4
+                    ],
+                    "text": " Vengo a mi dibujo, ustedes ven que \u00e9sta ser\u00eda la base mayor y ven que \u00e9sta ser\u00eda la base menor del trapecio"
+                },
+                {
+                    "timestamp": [
+                        23.4,
+                        29.4
+                    ],
+                    "text": " y \u00e9sta cu\u00e1l ser\u00eda la base mayor y \u00e9sta cu\u00e1l ser\u00eda la base menor."
+                },
+                {
+                    "timestamp": [
+                        29.4,
+                        34.2
+                    ],
+                    "text": " Entonces, y me dio un rect\u00e1bulo que supongo que todos saben que hace por altura."
+                }
+            ],
+            "translated_text": "",
+            "translated_chunks": [],
+            "input_language": "spanish",
+            "target_language": "spanish",
+            "filepath": "/home/bilal/main/snrt_project/code/ai_transcription_pipeline/data/transcriptions/transcription_fbd2a148e530482f9f76cdad8de1011c_job_6869c49b79a14d18aaefc2ca67be7ac7_spanish.vtt",
+            "creation_datetime": "2025-08-30T21:52:58.241529"
+        },
+        "9": {
+            "transcription_id": "transcription_f587ca4db11448128fe849fbb3f7faa1_job_6869c49b79a14d18aaefc2ca67be7ac7",
+            "job_id": "job_6869c49b79a14d18aaefc2ca67be7ac7",
+            "original_text": " En matem\u00e1tica se llama base a los lados paralelos, \u00e9sta es base y \u00e9sta es base. \u00bfPor qu\u00e9 escrib\u00ed grande y chica? Porque \u00e9sta se llama base menor y \u00e9sta se llama base mayor. Vengo a mi dibujo, ustedes ven que \u00e9sta ser\u00eda la base mayor y ven que \u00e9sta ser\u00eda la base menor del trapecio y \u00e9sta cu\u00e1l ser\u00eda la base mayor y \u00e9sta cu\u00e1l ser\u00eda la base menor. Entonces, y me dio un rect\u00e1bulo que supongo que todos saben que hace por altura.",
+            "original_chunks": [
+                {
+                    "timestamp": [
+                        0.0,
+                        8.52
+                    ],
+                    "text": " En matem\u00e1tica se llama base a los lados paralelos, \u00e9sta es base y \u00e9sta es base."
+                },
+                {
+                    "timestamp": [
+                        8.52,
+                        15.24
+                    ],
+                    "text": " \u00bfPor qu\u00e9 escrib\u00ed grande y chica? Porque \u00e9sta se llama base menor y \u00e9sta se llama base mayor."
+                },
+                {
+                    "timestamp": [
+                        15.24,
+                        23.4
+                    ],
+                    "text": " Vengo a mi dibujo, ustedes ven que \u00e9sta ser\u00eda la base mayor y ven que \u00e9sta ser\u00eda la base menor del trapecio"
+                },
+                {
+                    "timestamp": [
+                        23.4,
+                        29.4
+                    ],
+                    "text": " y \u00e9sta cu\u00e1l ser\u00eda la base mayor y \u00e9sta cu\u00e1l ser\u00eda la base menor."
+                },
+                {
+                    "timestamp": [
+                        29.4,
+                        34.2
+                    ],
+                    "text": " Entonces, y me dio un rect\u00e1bulo que supongo que todos saben que hace por altura."
+                }
+            ],
+            "translated_text": "In mathematics it is called base to the parallel sides, this is base and this is base. Why did I write big and small? Because this is called the minor base and this is called the major base. I come to my drawing, you see that this would be the major base and you see that this would be the minor base of the trapeze and this would be the major base and this would be the minor base. Then, and gave me a retabule that I suppose everyone knows what it does by height.",
+            "translated_chunks": [
+                {
+                    "timestamp": [
+                        0.0,
+                        8.52
+                    ],
+                    "text": "In mathematics the parallel sides are called base, this is base and this is base."
+                },
+                {
+                    "timestamp": [
+                        8.52,
+                        15.24
+                    ],
+                    "text": "Why did I write big and girl? Because this is called a minor base and this is called a major base."
+                },
+                {
+                    "timestamp": [
+                        15.24,
+                        23.4
+                    ],
+                    "text": "I come to my drawing, you see that this would be the largest base and you see that this would be the smallest base of the trapeze."
+                },
+                {
+                    "timestamp": [
+                        23.4,
+                        29.4
+                    ],
+                    "text": "and this would be the largest base and this would be the lowest base."
+                },
+                {
+                    "timestamp": [
+                        29.4,
+                        34.2
+                    ],
+                    "text": "So, and he gave me a rectabule that I guess everyone knows what it's doing by height."
+                }
+            ],
+            "input_language": "spanish",
+            "target_language": "english",
+            "filepath": "/home/bilal/main/snrt_project/code/ai_transcription_pipeline/data/transcriptions/transcription_f587ca4db11448128fe849fbb3f7faa1_job_6869c49b79a14d18aaefc2ca67be7ac7_english.vtt",
+            "creation_datetime": "2025-08-30T21:53:39.691761"
+        },
+        "10": {
+            "transcription_id": "transcription_d5eeac3315bb47c9a6085c80ff1338de_job_8381a5381ee3439294e75c98702084c5",
+            "job_id": "job_8381a5381ee3439294e75c98702084c5",
+            "original_text": "This is a test transcription. It contains some text that needs to be summarized. The content discusses various topics and provides detailed information about the subject matter. This should be enough text to generate a meaningful summary.",
+            "original_chunks": {},
+            "translated_text": "This is a test transcription. It contains some text that needs to be summarized. The content discusses various topics and provides detailed information about the subject matter. This should be enough text to generate a meaningful summary.",
+            "translated_chunks": {},
+            "input_language": "english",
+            "target_language": "english",
+            "filepath": "/test/transcription.vtt",
+            "creation_datetime": "2025-08-30T21:58:27.559845"
+        },
+        "11": {
+            "transcription_id": "transcription_c25cfcd14009491ebb5e096cabe49e54_job_061944cb124743e0b792f708cfd560e9",
+            "job_id": "job_061944cb124743e0b792f708cfd560e9",
+            "original_text": " En matem\u00e1tica se llama base a los lados paralelos, \u00e9sta es base y \u00e9sta es base. \u00bfPor qu\u00e9 escrib\u00ed grande y chica? Porque \u00e9sta se llama base menor y \u00e9sta se llama base mayor. Vengo a mi dibujo, ustedes ven que \u00e9sta ser\u00eda la base mayor y ven que \u00e9sta ser\u00eda la base menor del trapecio y \u00e9sta cu\u00e1l ser\u00eda la base mayor y \u00e9sta cu\u00e1l ser\u00eda la base menor. Entonces, y me dio un rect\u00e1bulo que supongo que todos saben que hace por altura.",
+            "original_chunks": [
+                {
+                    "timestamp": [
+                        0.0,
+                        8.52
+                    ],
+                    "text": " En matem\u00e1tica se llama base a los lados paralelos, \u00e9sta es base y \u00e9sta es base."
+                },
+                {
+                    "timestamp": [
+                        8.52,
+                        15.24
+                    ],
+                    "text": " \u00bfPor qu\u00e9 escrib\u00ed grande y chica? Porque \u00e9sta se llama base menor y \u00e9sta se llama base mayor."
+                },
+                {
+                    "timestamp": [
+                        15.24,
+                        23.4
+                    ],
+                    "text": " Vengo a mi dibujo, ustedes ven que \u00e9sta ser\u00eda la base mayor y ven que \u00e9sta ser\u00eda la base menor del trapecio"
+                },
+                {
+                    "timestamp": [
+                        23.4,
+                        29.4
+                    ],
+                    "text": " y \u00e9sta cu\u00e1l ser\u00eda la base mayor y \u00e9sta cu\u00e1l ser\u00eda la base menor."
+                },
+                {
+                    "timestamp": [
+                        29.4,
+                        34.2
+                    ],
+                    "text": " Entonces, y me dio un rect\u00e1bulo que supongo que todos saben que hace por altura."
+                }
+            ],
+            "translated_text": "",
+            "translated_chunks": [],
+            "input_language": "spanish",
+            "target_language": "spanish",
+            "filepath": "/home/bilal/main/snrt_project/code/ai_transcription_pipeline/data/transcriptions/transcription_c25cfcd14009491ebb5e096cabe49e54_job_061944cb124743e0b792f708cfd560e9_spanish.vtt",
+            "creation_datetime": "2025-08-30T22:02:01.682510"
+        },
+        "12": {
+            "transcription_id": "transcription_203ff9a5de7e4bddae6cf2b68128a87a_job_061944cb124743e0b792f708cfd560e9",
+            "job_id": "job_061944cb124743e0b792f708cfd560e9",
+            "original_text": " En matem\u00e1tica se llama base a los lados paralelos, \u00e9sta es base y \u00e9sta es base. \u00bfPor qu\u00e9 escrib\u00ed grande y chica? Porque \u00e9sta se llama base menor y \u00e9sta se llama base mayor. Vengo a mi dibujo, ustedes ven que \u00e9sta ser\u00eda la base mayor y ven que \u00e9sta ser\u00eda la base menor del trapecio y \u00e9sta cu\u00e1l ser\u00eda la base mayor y \u00e9sta cu\u00e1l ser\u00eda la base menor. Entonces, y me dio un rect\u00e1bulo que supongo que todos saben que hace por altura.",
+            "original_chunks": [
+                {
+                    "timestamp": [
+                        0.0,
+                        8.52
+                    ],
+                    "text": " En matem\u00e1tica se llama base a los lados paralelos, \u00e9sta es base y \u00e9sta es base."
+                },
+                {
+                    "timestamp": [
+                        8.52,
+                        15.24
+                    ],
+                    "text": " \u00bfPor qu\u00e9 escrib\u00ed grande y chica? Porque \u00e9sta se llama base menor y \u00e9sta se llama base mayor."
+                },
+                {
+                    "timestamp": [
+                        15.24,
+                        23.4
+                    ],
+                    "text": " Vengo a mi dibujo, ustedes ven que \u00e9sta ser\u00eda la base mayor y ven que \u00e9sta ser\u00eda la base menor del trapecio"
+                },
+                {
+                    "timestamp": [
+                        23.4,
+                        29.4
+                    ],
+                    "text": " y \u00e9sta cu\u00e1l ser\u00eda la base mayor y \u00e9sta cu\u00e1l ser\u00eda la base menor."
+                },
+                {
+                    "timestamp": [
+                        29.4,
+                        34.2
+                    ],
+                    "text": " Entonces, y me dio un rect\u00e1bulo que supongo que todos saben que hace por altura."
+                }
+            ],
+            "translated_text": "In mathematics it is called base to the parallel sides, this is base and this is base. Why did I write big and small? Because this is called the minor base and this is called the major base. I come to my drawing, you see that this would be the major base and you see that this would be the minor base of the trapeze and this would be the major base and this would be the minor base. Then, and gave me a retabule that I suppose everyone knows what it does by height.",
+            "translated_chunks": [
+                {
+                    "timestamp": [
+                        0.0,
+                        8.52
+                    ],
+                    "text": "In mathematics the parallel sides are called base, this is base and this is base."
+                },
+                {
+                    "timestamp": [
+                        8.52,
+                        15.24
+                    ],
+                    "text": "Why did I write big and girl? Because this is called a minor base and this is called a major base."
+                },
+                {
+                    "timestamp": [
+                        15.24,
+                        23.4
+                    ],
+                    "text": "I come to my drawing, you see that this would be the largest base and you see that this would be the smallest base of the trapeze."
+                },
+                {
+                    "timestamp": [
+                        23.4,
+                        29.4
+                    ],
+                    "text": "and this would be the largest base and this would be the lowest base."
+                },
+                {
+                    "timestamp": [
+                        29.4,
+                        34.2
+                    ],
+                    "text": "So, and he gave me a rectabule that I guess everyone knows what it's doing by height."
+                }
+            ],
+            "input_language": "spanish",
+            "target_language": "english",
+            "filepath": "/home/bilal/main/snrt_project/code/ai_transcription_pipeline/data/transcriptions/transcription_203ff9a5de7e4bddae6cf2b68128a87a_job_061944cb124743e0b792f708cfd560e9_english.vtt",
+            "creation_datetime": "2025-08-30T22:02:20.660830"
+        },
+        "13": {
+            "transcription_id": "transcription_cbd0e475690b456fa2f183f4ba9c7e97_job_c6d9547d403a40ac89e02dc447f16ec2",
+            "job_id": "job_c6d9547d403a40ac89e02dc447f16ec2",
+            "original_text": " Las fuertes lluvias registradas en los \u00faltimos dos d\u00edas en Marruecos han inundado varios barrios de la ciudad de Casa Blanca y una casa se derrumb\u00f3 en Derbe-Mureysh-Rief-en-Hei-Mohamedi, donde falleci\u00f3 una persona y otras dos fueron trasladadas de urgencia al Hospital Provincial Mohamed V en Casa Blanca. Vamos a ofrecerles los detalles de este suceso y de c\u00f3mo est\u00e1 la situaci\u00f3n en la capital econ\u00f3mica del reino. La tragedia ocurri\u00f3 en el barrio Mule Shrift, donde una casa de tres pisos se vino abajo, debido a las intensas lluvias registradas en las \u00faltimas 72 horas que debilitaron las paredes de este edificio, qued\u00e1ndose total.",
+            "original_chunks": [
+                {
+                    "timestamp": [
+                        0.0,
+                        4.92
+                    ],
+                    "text": " Las fuertes lluvias registradas en los \u00faltimos dos d\u00edas en Marruecos han inundado varios"
+                },
+                {
+                    "timestamp": [
+                        4.92,
+                        11.8
+                    ],
+                    "text": " barrios de la ciudad de Casa Blanca y una casa se derrumb\u00f3 en Derbe-Mureysh-Rief-en-Hei-Mohamedi,"
+                },
+                {
+                    "timestamp": [
+                        11.8,
+                        17.92
+                    ],
+                    "text": " donde falleci\u00f3 una persona y otras dos fueron trasladadas de urgencia al Hospital Provincial"
+                },
+                {
+                    "timestamp": [
+                        17.92,
+                        24.88
+                    ],
+                    "text": " Mohamed V en Casa Blanca. Vamos a ofrecerles los detalles de este suceso y de c\u00f3mo est\u00e1"
+                },
+                {
+                    "timestamp": [
+                        24.88,
+                        28.32
+                    ],
+                    "text": " la situaci\u00f3n en la capital econ\u00f3mica del reino."
+                },
+                {
+                    "timestamp": [
+                        28.32,
+                        35.44
+                    ],
+                    "text": " La tragedia ocurri\u00f3 en el barrio Mule Shrift, donde una casa de tres pisos se vino abajo,"
+                },
+                {
+                    "timestamp": [
+                        35.44,
+                        40.48
+                    ],
+                    "text": " debido a las intensas lluvias registradas en las \u00faltimas 72 horas que debilitaron las"
+                },
+                {
+                    "timestamp": [
+                        40.48,
+                        43.0
+                    ],
+                    "text": " paredes de este edificio, qued\u00e1ndose total."
+                }
+            ],
+            "translated_text": "",
+            "translated_chunks": [],
+            "input_language": "spanish",
+            "target_language": "spanish",
+            "filepath": "/home/bilal/main/snrt_project/code/ai_transcription_pipeline/data/transcriptions/transcription_cbd0e475690b456fa2f183f4ba9c7e97_job_c6d9547d403a40ac89e02dc447f16ec2_spanish.vtt",
+            "creation_datetime": "2025-08-30T22:23:24.181472"
+        },
+        "14": {
+            "transcription_id": "transcription_6e2b813f916a4439b98cf0cf07a981f3_job_c6d9547d403a40ac89e02dc447f16ec2",
+            "job_id": "job_c6d9547d403a40ac89e02dc447f16ec2",
+            "original_text": " Las fuertes lluvias registradas en los \u00faltimos dos d\u00edas en Marruecos han inundado varios barrios de la ciudad de Casa Blanca y una casa se derrumb\u00f3 en Derbe-Mureysh-Rief-en-Hei-Mohamedi, donde falleci\u00f3 una persona y otras dos fueron trasladadas de urgencia al Hospital Provincial Mohamed V en Casa Blanca. Vamos a ofrecerles los detalles de este suceso y de c\u00f3mo est\u00e1 la situaci\u00f3n en la capital econ\u00f3mica del reino. La tragedia ocurri\u00f3 en el barrio Mule Shrift, donde una casa de tres pisos se vino abajo, debido a las intensas lluvias registradas en las \u00faltimas 72 horas que debilitaron las paredes de este edificio, qued\u00e1ndose total.",
+            "original_chunks": [
+                {
+                    "timestamp": [
+                        0.0,
+                        4.92
+                    ],
+                    "text": " Las fuertes lluvias registradas en los \u00faltimos dos d\u00edas en Marruecos han inundado varios"
+                },
+                {
+                    "timestamp": [
+                        4.92,
+                        11.8
+                    ],
+                    "text": " barrios de la ciudad de Casa Blanca y una casa se derrumb\u00f3 en Derbe-Mureysh-Rief-en-Hei-Mohamedi,"
+                },
+                {
+                    "timestamp": [
+                        11.8,
+                        17.92
+                    ],
+                    "text": " donde falleci\u00f3 una persona y otras dos fueron trasladadas de urgencia al Hospital Provincial"
+                },
+                {
+                    "timestamp": [
+                        17.92,
+                        24.88
+                    ],
+                    "text": " Mohamed V en Casa Blanca. Vamos a ofrecerles los detalles de este suceso y de c\u00f3mo est\u00e1"
+                },
+                {
+                    "timestamp": [
+                        24.88,
+                        28.32
+                    ],
+                    "text": " la situaci\u00f3n en la capital econ\u00f3mica del reino."
+                },
+                {
+                    "timestamp": [
+                        28.32,
+                        35.44
+                    ],
+                    "text": " La tragedia ocurri\u00f3 en el barrio Mule Shrift, donde una casa de tres pisos se vino abajo,"
+                },
+                {
+                    "timestamp": [
+                        35.44,
+                        40.48
+                    ],
+                    "text": " debido a las intensas lluvias registradas en las \u00faltimas 72 horas que debilitaron las"
+                },
+                {
+                    "timestamp": [
+                        40.48,
+                        43.0
+                    ],
+                    "text": " paredes de este edificio, qued\u00e1ndose total."
+                }
+            ],
+            "translated_text": "The heavy rains of the last two days in Morocco have flooded several neighborhoods of the city of Casa Blanca and one house collapsed in Derbe-Mureysh-Rief-en-Hei-Mohamedi, where one person died and two others were moved urgently to Mohamed V Provincial Hospital in Casa Blanca. We will offer you the details of this event and how the situation is in the economic capital of the kingdom. The tragedy occurred in the Mule Shrift neighborhood, where a three-story house collapsed, due to the intense rains recorded in the last 72 hours that weakened the walls of this building, remaining totally.",
+            "translated_chunks": [
+                {
+                    "timestamp": [
+                        0.0,
+                        4.92
+                    ],
+                    "text": "Heavy rains in Morocco over the past two days have flooded several"
+                },
+                {
+                    "timestamp": [
+                        4.92,
+                        11.8
+                    ],
+                    "text": "neighborhoods of the city of White House and a house collapsed in Derbe-Mureysh-Rief-en-Hei-Mohamedi,"
+                },
+                {
+                    "timestamp": [
+                        11.8,
+                        17.92
+                    ],
+                    "text": "where one person died and two others were rushed to the Provincial Hospital"
+                },
+                {
+                    "timestamp": [
+                        17.92,
+                        24.88
+                    ],
+                    "text": "Mohamed V at the White House. We will give you the details of this event and how it is"
+                },
+                {
+                    "timestamp": [
+                        24.88,
+                        28.32
+                    ],
+                    "text": "the situation in the economic capital of the kingdom."
+                },
+                {
+                    "timestamp": [
+                        28.32,
+                        35.44
+                    ],
+                    "text": "The tragedy occurred in the Mule Shrift neighborhood, where a three-story house fell apart,"
+                },
+                {
+                    "timestamp": [
+                        35.44,
+                        40.48
+                    ],
+                    "text": "due to heavy rains in the last 72 hours that weakened the"
+                },
+                {
+                    "timestamp": [
+                        40.48,
+                        43.0
+                    ],
+                    "text": "walls of this building, staying total."
+                }
+            ],
+            "input_language": "spanish",
+            "target_language": "english",
+            "filepath": "/home/bilal/main/snrt_project/code/ai_transcription_pipeline/data/transcriptions/transcription_6e2b813f916a4439b98cf0cf07a981f3_job_c6d9547d403a40ac89e02dc447f16ec2_english.vtt",
+            "creation_datetime": "2025-08-30T22:23:52.615090"
+        }
+    },
+    "summaries": {
+        "1": {
+            "summary_id": "summary7d1eb7f8f1454fd8bab734e848ce9674_job_94f64d2710dc4d61a6026f2edcbe9d6f",
+            "job_id": "job_94f64d2710dc4d61a6026f2edcbe9d6f",
+            "language": "english",
+            "text_content": "This is a test summary of the transcription content."
+        },
+        "2": {
+            "summary_id": "summary2b41ee1d8cb14811bf9e6c12c78cd70c_job_8381a5381ee3439294e75c98702084c5",
+            "job_id": "job_8381a5381ee3439294e75c98702084c5",
+            "language": "english",
+            "text_content": "This is a test summary of the transcription content."
+        },
+        "3": {
+            "summary_id": "summary109fb76b477c4725a7ae3d17a1446316_job_061944cb124743e0b792f708cfd560e9",
+            "job_id": "job_061944cb124743e0b792f708cfd560e9",
+            "language": "english",
+            "text_content": "In mathematics it is called base to the parallel sides. This is base and this is base. Why did I write big and small? Because this is called the minor base. This would be the major base. Then, and gave me a retabule that I suppose everyone knows what it does by height."
+        },
+        "4": {
+            "summary_id": "summary0fa8f8f2873941509338ab2cb19eaded_job_c6d9547d403a40ac89e02dc447f16ec2",
+            "job_id": "job_c6d9547d403a40ac89e02dc447f16ec2",
+            "language": "english",
+            "text_content": "Heavy rains of the last two days in Morocco have flooded several neighborhoods of the city of Casa Blanca. One house collapsed in Derbe-Mureysh-Rief-en-Hei-Mohamedi, where one person died and two others were moved urgently to hospital."
         }
     }
 }

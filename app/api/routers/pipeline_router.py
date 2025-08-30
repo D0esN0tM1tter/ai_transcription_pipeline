@@ -1,6 +1,7 @@
 import logging
 from fastapi import APIRouter, HTTPException , UploadFile, File , Form , Depends
 from app.api.schemas.job_response import JobResponse
+from app.api.schemas.transcription_request import ModelSize
 from app.models.transcription_job import TranscriptionJob
 from typing import List
 from app.containers.factory import app_container
@@ -25,11 +26,13 @@ def get_app_config() :
 
 @router.post("/process", response_model=JobResponse)
 async def process(
-    
-    asr_model_size : str , 
     video: UploadFile = File(...),
     input_language: str = Form(...),
-    target_languages: List[str] = Form(...) , 
+    target_languages: List[str] = Form(...),
+    asr_model_size: ModelSize = Form(
+        default=ModelSize.SMALL,
+        description="Whisper model size: tiny, base, small, medium, or large. Larger models are more accurate but slower."
+    ),
     integration_service : IntegrationService = Depends(get_integration_service) , 
     app_config : AppConfig = Depends(get_app_config) , 
 ):
@@ -45,7 +48,7 @@ async def process(
             processed=False
         )
 
-        processed_job = integration_service.process(job=job , asr_model_size=asr_model_size)
+        processed_job = integration_service.process(job=job , asr_model_size=asr_model_size.value)
 
         return JobResponse(
             job_id=processed_job.id,

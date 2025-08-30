@@ -5,6 +5,7 @@ This project provides an AI-powered transcription and subtitle generation system
 
 ## Features
 - **Automatic Audio Transcription**: Convert speech to text using state-of-the-art AI models
+- **AI-Powered Summarization**: Generate concise summaries of transcribed content in multiple languages
 - **Multi-language Support**: Process audio in multiple languages
 - **Video Processing**: Extract audio from video files for transcription
 - **Subtitle Generation**: Generate VTT subtitle files
@@ -259,6 +260,17 @@ curl -X GET "http://127.0.0.1:8000/transcription/jobs/{job_id}/status"
 # Download transcription results
 curl -X GET "http://127.0.0.1:8000/transcription/jobs/{job_id}/download" \
   -o transcription.vtt
+
+# Download processed video with subtitles
+curl -X GET "http://127.0.0.1:8000/api/downloads/download_video/{job_id}" \
+  -o processed_video.mkv
+
+# Download subtitles for specific language
+curl -X GET "http://127.0.0.1:8000/api/downloads/download_subtitles/{job_id}/{language}" \
+  -o subtitles.vtt
+
+# Get summaries for a job
+curl -X GET "http://127.0.0.1:8000/api/downloads/summaries/{job_id}"
 ```
 
 ### Supported File Formats
@@ -342,6 +354,24 @@ pip install torch torchvision torchaudio
 
 # Update .env
 DEVICE=mps
+```
+
+### Model Caching
+
+AI models are automatically downloaded and cached by Hugging Face Transformers. By default, models are stored in:
+
+- **Linux/macOS**: `~/.cache/huggingface/`
+- **Windows**: `%USERPROFILE%\.cache\huggingface\`
+
+The application uses the default Hugging Face cache directory, which provides several benefits:
+- **Automatic management**: Models are automatically downloaded and cached
+- **Shared storage**: Models are shared between different projects using the same models
+- **Efficient storage**: Duplicate models are avoided across projects
+- **Standard location**: Follows Hugging Face conventions
+
+You can customize the cache location using the `HF_HOME` environment variable:
+```bash
+export HF_HOME=/path/to/custom/cache
 ```
 
 ## Troubleshooting

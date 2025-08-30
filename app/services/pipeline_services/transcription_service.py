@@ -27,12 +27,8 @@ class ASRModel:
 
         self.device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
         self.dtype = torch.float16 if torch.cuda.is_available() else torch.float32
-        models_dir = os.getenv('LLM_MODELS_DIR', 'hf_models')
-        root = os.path.abspath(os.path.join(os.path.dirname(__file__), '../../../../..'))
-        self.models_dir = models_dir if os.path.isabs(models_dir) else os.path.join(root, models_dir)
-        os.makedirs(self.models_dir, exist_ok=True)
         self.pipeline = None
-        logger.info(f"ASRModel initialized device={self.device}, dtype={self.dtype}, models_dir={self.models_dir}")
+        logger.info(f"ASRModel initialized device={self.device}, dtype={self.dtype}")
 
     
     def _get_model(self , model_size : str) :
@@ -43,24 +39,28 @@ class ASRModel:
             "medium" : "openai/whisper-medium" , 
             "large" : "openai/whisper-large"
         }
-        model_id = whisper_models.get(model_size , "openai/whisper-small")
+        
+        if model_size not in whisper_models:
+            available_sizes = list(whisper_models.keys())
+            logger.warning(f"Invalid model size '{model_size}'. Available sizes: {available_sizes}. Defaulting to 'small'.")
+            model_size = "small"
+            
+        model_id = whisper_models[model_size]
         logger.info(f"Selected Whisper model: {model_id}")
         return model_id
 
     def load(self , model_size : str):
-        """Load ASR pipeline."""
-
+        """Load ASR pipeline and save model/processor."""
         model_id = self._get_model(model_size)
         logger.info(f"Loading processor for model_id: {model_id}")
-        processor = AutoProcessor.from_pretrained(model_id, cache_dir=self.models_dir)
+        processor = AutoProcessor.from_pretrained(model_id)
         try:
             logger.info(f"Loading model to device: {self.device}")
             model = AutoModelForSpeechSeq2Seq.from_pretrained(
                 model_id,
                 torch_dtype=self.dtype,
                 low_cpu_mem_usage=True,
-                use_safetensors=True,
-                cache_dir=self.models_dir
+                use_safetensors=True
             ).to(self.device)
         except torch.cuda.OutOfMemoryError:
             logger.warning("CUDA out of memory. Falling back to CPU.")
@@ -108,7 +108,8 @@ class ASRModel:
         if not isinstance(audio, AudioUtils):
             logger.error("audio must be AudioUtils instance")
             raise ValueError("audio must be AudioUtils instance")
-        if not getattr(audio, 'array', None) or not isinstance(audio.array, np.ndarray) or audio.array.size == 0:
+        arr = getattr(audio, 'array', None)
+        if arr is None or not isinstance(arr, np.ndarray) or arr.size == 0:
             logger.error("audio.array must be non-empty numpy array")
             raise ValueError("audio.array must be non-empty numpy array")
         if not getattr(audio, 'language', None):
