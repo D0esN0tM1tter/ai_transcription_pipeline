@@ -75,27 +75,26 @@ pip install -r requirements.txt
 
 Note: The first time you run transcription, Whisper models will be automatically downloaded (this may take some time).
 
-### 4. Set Environment Variables
+### 4. Create Environment File
 
-Create the required directories and set environment variables:
+Create a `.env` file in the project root directory:
 
-**Linux/macOS:**
 ```bash
-export DB_PATH="./database/app.json"
-export AUDIOS_DIR="./data/audios"
-export PROCESSED_VID_DIR="./data/videos/processed"
-export TRANSCRIPTIONS_DIR="./data/transcriptions"
-export UPLOAD_DIR="./data/videos/upload"
+# Create the .env file
+touch .env
 ```
 
-**Windows:**
-```cmd
-set DB_PATH=./database/app.json
-set AUDIOS_DIR=./data/audios
-set PROCESSED_VID_DIR=./data/videos/processed
-set TRANSCRIPTIONS_DIR=./data/transcriptions
-set UPLOAD_DIR=./data/videos/upload
+Add the following environment variables to the `.env` file:
+
+```env
+DB_PATH=./database/app.json
+AUDIOS_DIR=./data/audios
+PROCESSED_VID_DIR=./data/videos/processed
+TRANSCRIPTIONS_DIR=./data/transcriptions
+UPLOAD_DIR=./data/videos/upload
 ```
+
+The application will automatically load these variables when it starts.
 
 ## Running the Application
 
