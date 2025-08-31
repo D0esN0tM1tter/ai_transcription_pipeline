@@ -17,8 +17,15 @@ COPY requirements.txt .
 # Install Python packages listed in requirements.txt
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Copy the application code and database folder into the container
+# Copy the application code into the container
 COPY app/ ./app/
+
+# Copy database and data directories to ensure initial structure exists
+COPY database/ ./database/
+COPY data/ ./data/
+
+# Create necessary directories if they don't exist
+RUN mkdir -p /app/database /app/data/audios /app/data/videos/processed /app/data/transcriptions /app/data/videos/upload
 
 # Set environment variables for file and database locations
 ENV DB_PATH=/app/database/app.json \
@@ -27,8 +34,8 @@ ENV DB_PATH=/app/database/app.json \
     TRANSCRIPTIONS_DIR=/app/data/transcriptions \
     UPLOAD_DIR=/app/data/videos/upload
 
-# Declare persistent volumes for database, audio, video, transcription, and upload
-VOLUME ["/app/database", "/app/data/audios", "/app/data/videos/processed", "/app/data/transcriptions", "/app/data/videos/upload"]
+# Declare persistent volumes for database and all data directories
+VOLUME ["/app/database", "/app/data"]
 
 # Expose port 8000 so we can access the app from outside the container
 EXPOSE 8000

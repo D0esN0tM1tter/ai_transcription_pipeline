@@ -4,16 +4,185 @@
 This project provides an AI-powered transcription and subtitle generation system for audio and video files. Built with FastAPI and modern AI models, it offers a robust REST API for automated speech-to-text conversion with multi-language support.
 
 ## Features
-- **Automatic Audio Transcription**: Convert speech to text using state-of-the-art AI models
-- **AI-Powered Summarization**: Generate concise summaries of transcribed content in multiple languages
-- **Multi-language Support**: Process audio in multiple languages
-- **Video Processing**: Extract audio from video files for transcription
-- **Subtitle Generation**: Generate VTT subtitle files
-- **RESTful API**: Complete API endpoints for job management and file processing
-- **Modular Architecture**: Clean, extensible codebase with dependency injection
-- **Async Processing**: Non-blocking transcription jobs for better performance
+- **🎵 Automatic Audio Transcription**: Convert speech to text using state-of-the-art AI models
+- **🤖 AI-Powered Summarization**: Generate concise summaries of transcribed content in multiple languages
+- **🌍 Multi-language Support**: Process audio in multiple languages (English, Spanish, French, Arabic)
+- **🎬 Video Processing**: Extract audio from video files for transcription
+- **📝 Subtitle Generation**: Generate VTT subtitle files compatible with video players
+- **🚀 RESTful API**: Complete API endpoints for job management and file processing
+- **🏗️ Modular Architecture**: Clean, extensible codebase with dependency injection
+- **⚡ Async Processing**: Non-blocking transcription jobs for better performance
 
-## Project Structure
+## 🚀 Quick Start Guide
+
+### Step 1: Check Prerequisites
+
+Before starting, make sure you have:
+- **Python 3.10 or higher** - [Download here](https://www.python.org/downloads/)
+- **Git** - [Download here](https://git-scm.com/downloads)
+- **FFmpeg** - For audio/video processing
+
+#### Install FFmpeg:
+
+**Windows:**
+1. Download FFmpeg from [ffmpeg.org](https://ffmpeg.org/download.html#build-windows)
+2. Extract to `C:\ffmpeg`
+3. Add `C:\ffmpeg\bin` to your PATH
+4. Restart your terminal
+
+**macOS:**
+```bash
+# Using Homebrew (install Homebrew first if needed)
+brew install ffmpeg
+```
+
+**Linux (Ubuntu/Debian):**
+```bash
+sudo apt update
+sudo apt install ffmpeg
+```
+
+**Verify Installation:**
+```bash
+python --version    # Should show 3.10+
+ffmpeg -version     # Should show FFmpeg info
+git --version       # Should show Git info
+```
+
+### Step 2: Download and Setup
+
+#### 1. Clone the Repository
+```bash
+git clone https://github.com/D0esN0tM1tter/ai_transcription_pipeline.git
+cd ai_transcription_pipeline
+```
+
+#### 2. Create Virtual Environment
+```bash
+# Create virtual environment
+python -m venv .venv
+
+# Activate it
+# On Windows:
+.venv\Scripts\activate
+
+# On macOS/Linux:
+source .venv/bin/activate
+
+# You should see (.venv) in your terminal prompt
+```
+
+#### 3. Install Dependencies
+```bash
+# Upgrade pip first
+pip install --upgrade pip
+
+# Install all required packages
+pip install -r requirements.txt
+```
+
+### Step 3: Configure Environment
+
+Create the environment configuration file:
+
+**Windows:**
+```cmd
+copy nul app\.env
+```
+
+**macOS/Linux:**
+```bash
+touch app/.env
+```
+
+Open `app/.env` in any text editor and add:
+```env
+# Basic Configuration
+API_HOST=127.0.0.1
+API_PORT=8000
+DEBUG=true
+
+# File Paths (relative to project root)
+DB_PATH=database/app.json
+AUDIOS_DIR=data/audios
+PROCESSED_VID_DIR=data/videos/processed
+TRANSCRIPTIONS_DIR=data/transcriptions
+UPLOAD_DIR=data/videos/upload
+
+# AI Model Settings
+DEVICE=cpu
+```
+
+### Step 4: Start the Application
+
+```bash
+# Make sure virtual environment is active (you should see (.venv) in prompt)
+# Start the server
+uvicorn app.main:app --host 127.0.0.1 --port 8000 --reload
+```
+
+🎉 **Success!** You should see:
+```
+INFO:     Will watch for changes in these directories: ['/path/to/ai_transcription_pipeline']
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process
+INFO:     Started server process
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+```
+
+### Step 5: Test the Application
+
+Open your web browser and visit:
+- **🏠 Main API**: http://127.0.0.1:8000
+- **📚 API Documentation**: http://127.0.0.1:8000/docs
+
+You should see "API is running" message and interactive API documentation.
+
+## 🎯 Using the Application
+
+### Simple Usage Example
+
+1. **Start the server** (follow Step 4 above)
+
+2. **Open the API documentation** at http://127.0.0.1:8000/docs
+
+3. **Upload a file** using the `/api/pipeline/process` endpoint:
+   - Click on the endpoint in the docs
+   - Click "Try it out"
+   - Upload an audio/video file
+   - Select input language (e.g., "english")
+   - Select target languages (e.g., ["english", "spanish"])
+   - Click "Execute"
+
+4. **Check your results** in the `data/` folder:
+   - `data/transcriptions/` - Text transcriptions
+   - `data/videos/processed/` - Videos with subtitles
+
+### Command Line Usage
+
+```bash
+# Upload and process a file
+curl -X POST "http://127.0.0.1:8000/api/pipeline/process" \
+  -F "video=@your_audio_file.wav" \
+  -F "input_language=english" \
+  -F "target_languages=english" \
+  -F "target_languages=spanish"
+
+# Download processed video
+curl -X GET "http://127.0.0.1:8000/api/downloads/download_video/{job_id}" \
+  -o processed_video.mkv
+
+# Download subtitles
+curl -X GET "http://127.0.0.1:8000/api/downloads/download_subtitles/{job_id}/english" \
+  -o subtitles.vtt
+```
+
+### Supported File Formats
+- **📻 Audio**: WAV, MP3, FLAC, OGG, M4A
+- **🎬 Video**: MP4, AVI, MOV, MKV
+
+## 📁 Project Structure
 ```
 ai_transcription_pipeline/
 ├── app/
