@@ -1,5 +1,7 @@
 import logging
-from fastapi import APIRouter, HTTPException , UploadFile, File , Form , Depends
+from fastapi import APIRouter, HTTPException , UploadFile, File , Form , Depends, Response
+from fastapi.responses import FileResponse
+import os
 from app.api.schemas.job_response import JobResponse
 from app.api.schemas.transcription_request import ModelSize
 from app.models.transcription_job import TranscriptionJob
@@ -16,6 +18,32 @@ logger = logging.getLogger(__name__)
 
 # Initialize router
 router = APIRouter(prefix="/pipeline")
+
+# Directory for processed videos
+PROCESSED_VIDEOS_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), '../../../data/videos/processed'))
+
+# Endpoint to list processed videos
+@router.get("/processed-videos", response_model=List[str])
+async def list_processed_videos():
+    try:
+        files = [f for f in os.listdir(PROCESSED_VIDEOS_DIR) if os.path.isfile(os.path.join(PROCESSED_VIDEOS_DIR, f))]
+        return files
+    except Exception as e:
+        logger.error(f"Error listing processed videos: {e}")
+        raise HTTPException(status_code=500, detail="Could not list processed videos.")
+
+# Endpoint to download a processed video
+@router.get("/processed-videos/{filename}")
+async def download_processed_video(filename: str):
+    file_path = os.path.join(PROCESSED_VIDEOS_DIR, filename)
+    if not os.path.isfile(file_path):
+        raise HTTPException(status_code=404, detail="Video not found.")
+    return FileResponse(
+        path=file_path,
+        filename=filename,
+        media_type='application/octet-stream',
+        headers={"Content-Disposition": f"attachment; filename={filename}"}
+    )
 
 def get_integration_service() : 
     return app_container.pipeline_services_container.integration_service

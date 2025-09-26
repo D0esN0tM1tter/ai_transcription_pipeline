@@ -17,6 +17,12 @@ A FastAPI-based application that provides automated speech-to-text transcription
 - **Audio**: WAV, MP3, FLAC, OGG, M4A
 - **Video**: MP4, AVI, MOV, MKV
 
+## Frontend Interface
+
+For a user-friendly web interface to interact with this transcription pipeline, check out the companion frontend project:
+
+**[AI Transcription Frontend](https://github.com/D0esN0tM1tter/ai_transcription_frontend)**
+
 ## Prerequisites
 
 Before running the application, ensure you have:
@@ -108,16 +114,6 @@ The application will be available at:
 - **API**: http://127.0.0.1:8000
 - **Interactive API Documentation**: http://127.0.0.1:8000/docs
 - **Alternative API Documentation**: http://127.0.0.1:8000/redoc
-
-### Using Docker (Alternative)
-
-```bash
-# Build the image
-docker build -t ai-transcription-pipeline .
-
-# Run the container
-docker run -p 8000:8000 -v $(pwd)/data:/app/data -v $(pwd)/database:/app/database ai-transcription-pipeline
-```
 
 ## Usage
 
@@ -213,7 +209,7 @@ ai_transcription_pipeline/
 │   └── videos/               # Uploaded and processed videos
 ├── database/                 # JSON database
 ├── requirements.txt          # Python dependencies
-└── Dockerfile               # Docker configuration
+└── README.md                 # Project documentation
 ```
 
 ## Troubleshooting
